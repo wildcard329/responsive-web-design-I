@@ -294,23 +294,28 @@ footer .container .copyright {
         margin: 0 auto;
     }
 
-    #home .border {
+    .logo {
+        margin-left: 4%;
+    }
+
+    #home .links div {
         width: 100%;
         margin: 5%;
         border-bottom: 1px solid black;
         border-top: 1 px solid black;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 10%;
     }
 
     .links {
+        padding-top: 5%;
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
         font-size: 20px;
         border-top: 1px solid black;
-        border-bottom: 1px solid black;
-        
     }
+    
     /* section one */
     
     #section1 div {
